@@ -105,9 +105,10 @@ p {
 }
 
 .logo{
- font-size: 2rem;
+ font-size: 1.95rem;
  font-family: var(--ff-primary);
  font-weight: 600;
+ margin-top: 10px;
 }
 
 .nav-btn{
@@ -122,10 +123,20 @@ p {
   border-radius: 3px;
 }
 
+.nav-btn:hover{
+  background-color: var(--clr-white);
+  color: var(--clr-primary-1);
+  border: 1px solid var(--clr-primary-1);
+}
 .btn-white {
  background-color: var(--clr-white);
  color: var(--clr-primary-1);
-  border: 2px solid var(--clr-primary-1);
+  border: 1px solid var(--clr-primary-1);
+}
+.btn-white:hover {
+ background-color: var(--clr-primary-1);
+ color: var(--clr-white);
+  ;
 }
 
 .nav-header {
@@ -231,6 +242,12 @@ justify-content: space-around;
 
 }
 @media screen and (max-width: 800px) {
+  .logo {
+      font-size: 2rem;
+      font-family: var(--ff-primary);
+      font-weight: 600;
+      margin-left: 30px;
+    }
   .heroSection {
       /* height: 80vh; */
       display: block;
@@ -526,6 +543,7 @@ margin-top: 3rem;
       padding: 30px;
       display: block;
       margin: auto;
+      width: 400px;
     }
   .cards {
     margin: 0;
@@ -606,4 +624,5 @@ footer {
 
 .footer-list {
   margin: 2rem;
+}
 }
