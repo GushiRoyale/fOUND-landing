@@ -599,7 +599,11 @@ margin-top: 3rem;
   margin-right: auto;
   margin-bottom: 1rem;
 }
-.footer {
+footer {
   display: block;
+  
 }
+
+.footer-list {
+  margin: 2rem;
 }
