@@ -48,7 +48,7 @@ h2,
 h3,
 h4 {
  letter-spacing: var(--spacing);
- text-transform: capitalize;
+ /* text-transform: capitalize; */
  line-height: 1.25;
  margin-bottom: 0.75rem;
  font-family: var(--ff-primary);
@@ -105,7 +105,7 @@ p {
 }
 
 .logo{
- font-size: 3rem;
+ font-size: 2rem;
  font-family: var(--ff-primary);
  font-weight: 600;
 }
@@ -276,22 +276,20 @@ justify-content: space-around;
 }
 
 .choose{
- margin: 3rem 7rem;
-
- color: var(--clr-black);
-  
+  margin: 3rem 7rem;
+  color: var(--clr-black);
 }
 .heading{
- text-align: center;
- font-size: 1.5rem;
- font-weight: 700;
- margin-bottom: 3.5rem;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 3.5rem;
 }
 
 .cards{
- margin: auto 15px;
- display: flex;
- justify-content: space-between;
+  margin: auto 15px;
+  display: flex;
+  justify-content: space-between;
 }
 
 
@@ -362,12 +360,161 @@ justify-content: space-around;
  color: var(--clr-black);
 }
 
+
 .line{
  background-color: var(--clr-primary-1);
  height: 3px;
- width: 30%;
+ width: 30%; 
  margin-bottom: 10px; 
 }
+
+.earned {
+  padding: 8rem;
+  padding-bottom: 11rem;
+  align-items: center;
+  text-align: center;
+}
+
+.earned h2{
+ color: var(--clr-black);
+ font-size: 1.7rem;
+ margin-bottom: 3rem;
+
+}
+
+
+.roll1{
+  display: flex;
+  margin-bottom: 3rem;
+  margin-right: 4rem;
+  font-size: x-small;
+  text-align: start;
+}
+
+.roll2{
+  display: flex;
+  margin-left: 5rem;
+  font-size: x-small;
+  text-align: start;
+}
+
+.earnCard{
+  background-color: white;
+    margin: 0 40px;
+    padding: 2rem;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.earned h4{
+  color: var(--clr-black);
+}
+
+.lady {
+  position: relative;
+  width: 320px;
+  top: 340px;
+  left: 50px;
+}
+
+.steps{
+  display: flex;
+  background-color: var(--clr-primary-1);
+  color: var(--clr-white);
+  
+}
+
+.step-msg{
+  margin-left: 23rem;
+  padding: 3rem;
+  
+}
+
+.options{
+  display: flex;
+
+}
+
+.options span{
+  padding: 6px 12px;
+  color: var(--clr-primary-1);
+background-color: var(--clr-white);
+border-radius: 80%;
+margin-right: 1rem;
+}
+.steps p{
+  margin: 3rem 0;
+  margin-right: 7rem;
+}
+
+.white-btn{
+  background-color: var(--clr-primary-1);
+    border: 1px solid var(--clr-white);
+    height: 3rem;
+    width: 15rem;
+    color: var(--clr-white);
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 3px;
+    margin-right: 20px;
+}
+
+.white-btn:hover{
+  background-color: white;
+  color: var(--clr-primary-1);
+}
+
+footer{
+  display: flex;
+  margin: 4rem 0;
+  align-items: center;
+  justify-content: center;
+}
+
+footer p{
+  color: var(--clr-black);
+  font-weight: bold;
+}
+
+.footer-list{
+margin: 3.5rem;
+
+}
+
+footer a{
+  text-decoration: none;
+  color: var(--clr-black);
+  font-size: 0.9rem;
+}
+
+.footer-links{
+  display: inline-block;
+}
+
+.foot{
+  font-size: 0.9rem;
+  font-weight: 100;
+}
+
+.link1{
+  margin-top: 5rem;
+}
+.link2{
+  margin-top: 2rem;
+}
+.link3{
+margin-top: 3.5rem;
+}
+
+.link4{
+  margin-top: 4.5rem;
+}
+.link5{
+margin-top: 3rem;
+}
+
 @media screen and (max-width: 800px) {
   .cards {
     margin: 0;
