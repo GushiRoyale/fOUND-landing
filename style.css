@@ -516,6 +516,17 @@ margin-top: 3rem;
 }
 
 @media screen and (max-width: 800px) {
+  .future {
+      padding: 30px;
+      font-size: 2.5rem;
+      margin-top: 10rem;
+      display: block;
+    }
+    .heroImage{
+      padding: 30px;
+      display: block;
+      margin: auto;
+    }
   .cards {
     margin: 0;
     /* height: 80vh; */
@@ -530,17 +541,65 @@ margin-top: 3rem;
 
   }
     .started {
-     padding: 0;
+      padding: 0;
     }
 
     .start {
       display: block;
       justify-content: center;
     }
-        .startCard {
-         
-          margin-bottom: 50px;
-          padding: 2rem;
-          border-radius: 10px;
-        }
+    .startCard {
+      margin-bottom: 50px;
+      padding: 2rem;
+      border-radius: 10px;
+    }
+
+    .roll1 {
+      display: block;
+      margin-bottom: 2rem;
+      margin-right: 0;
+      font-size: x-small;
+      text-align: start;
+    }
+        
+    .roll2 {
+      display: block;
+      margin-left: 0;
+      font-size: x-small;
+      text-align: start;
+    }
+
+    .earned {
+      padding: 2rem;
+      padding-bottom: 0;
+      align-items: center;
+      text-align: center;
+    }
+
+    .earnCard {
+      margin: 15px;
+      padding: 2rem;
+      box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    }
+    .lady{
+      display: none;
+    }
+        .steps {
+          display: block;
+}
+.step-msg {
+  margin-left: 1rem;
+  padding: 3rem;
+}
+.options {
+  display: block;
+}
+.white-btn{
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1rem;
+}
+.footer {
+  display: block;
+}
 }
