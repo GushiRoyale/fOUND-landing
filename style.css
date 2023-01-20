@@ -164,6 +164,7 @@ p {
 .logo {
  height: 40px;
  color: var(--clr-black);
+ font-weight: 700;
 }
 
 .links a {
@@ -174,6 +175,7 @@ p {
  display: block;
  padding: 0.5rem 1rem;
  transition: var(--transition);
+ font-weight: 500;
 }
 
 .links a:hover {
@@ -237,7 +239,6 @@ span{
 .heroSection{
  /* height: 80vh; */
  display: flex;
-margin: 0 auto;
 justify-content: space-around;
 
 }
@@ -257,18 +258,31 @@ justify-content: space-around;
 }
 }
 
+
+.heroSection svg{
+  margin-top: 14rem;
+
+}
+
 .future{
  /* max-width: 60%; */
-  font-size: 2.5rem;
- margin-top:14rem;
+  font-size: 2.7rem;
+ margin-top:10rem;
+ font-weight: 500;
+}
+
+.future p{
+  margin-bottom: 5rem;
 }
 
 .heroImage{
- width: 400px;
+ width: 350px;
  margin-top: 4rem;
+ margin-left: 0;
 }
 
 .heroBtn2{
+  font-weight: 700;
   background-color: var(--clr-primary-1);
   border: none;
   height: 3rem;
@@ -282,8 +296,9 @@ justify-content: space-around;
   border-radius: 3px;
 }
 .heroBtn1{
+  font-weight: 700;
   background-color: var(--clr-white);
-  border: 1px solid var(--clr-primary-1);
+  border: 2px solid var(--clr-primary-1);
   height: 3rem;
   width: 15rem;
   color: var(--clr-primary-1);
@@ -316,18 +331,18 @@ justify-content: space-around;
 .chooseCard{
  background-color: white;
  margin: 0 40px;
- padding: 2rem;
+ padding: 2.5rem;
  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
 .chooseCard h3{
  color: var(--clr-black);
  font-size: 2rem;
- font-weight: 600;
+ font-weight: 700;
 }
 .chooseCard p{
  color: var(--clr-black);
- font-size: 1.5rem;
+ font-size: 1.2rem;
  font-weight: 500;
 }
 
@@ -357,15 +372,11 @@ justify-content: space-around;
   justify-content: center;
 }
 .startCard{
- justify-content: center;
- align-items: center;
- background-color: white;
- font size: 10rem;
- /* widtsh: 20%; */
- /* height: 25rem; */
- margin: 0 50px;
- padding: 2rem;
- border-radius: 10px;
+  background-color: white;
+  font size: 10rem;
+  margin: 0 50px;
+  padding: 2rem;
+  border-radius: 10px;
 }
 
 .start h2{
@@ -375,11 +386,16 @@ justify-content: space-around;
 }
 
 .start p {
- font-size: 1.5rem;
+ font-size: 1.1rem;
  font-weight: 500;
  color: var(--clr-black);
+ margin: 0;
 }
 
+.started svg{
+  margin-left: 80%;
+  padding: 0;
+}
 
 .line{
  background-color: var(--clr-primary-1);
@@ -388,20 +404,60 @@ justify-content: space-around;
  margin-bottom: 10px; 
 }
 
+.profile{
+  display: flex;
+  margin: 1rem 0;
+}
+
 .earned {
   padding: 8rem;
   padding-bottom: 11rem;
   align-items: center;
   text-align: center;
+ 
+}
+
+.earned P {
+  color: var(--clr-black);
+  font-size: 0.75rem;
+  
+
 }
 
 .earned h2{
  color: var(--clr-black);
  font-size: 1.7rem;
  margin-bottom: 3rem;
+}
+
+.earned span{
+  font-size: 0.45rem;
+  font-weight: 500;
+ 
+}
+.earned svg{
+  
+  background-color: var(--clr-primary-1);
+  border-radius: 100%;
+  width:60px;
+  padding: 10px;
 
 }
 
+.quote{
+  position: absolute;
+    left: 220px;
+    top: -25px;
+}
+
+
+.earnImg{
+  background-color: var(--clr-primary-1);
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  margin-right: 10px;
+}
 
 .roll1{
   display: flex;
@@ -421,12 +477,15 @@ justify-content: space-around;
 .earnCard{
   background-color: white;
     margin: 0 40px;
-    padding: 2rem;
+    padding: 1.5rem;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    position: relative;
 }
 
 .earned h4{
   color: var(--clr-black);
+  font-size: 10px;
+  margin-top: 4px;
 }
 
 .lady {
