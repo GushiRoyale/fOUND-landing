@@ -485,13 +485,13 @@ justify-content: space-around;
 .earned h4{
   color: var(--clr-black);
   font-size: 10px;
-  margin-top: 4px;
+  margin-top: 5px;
 }
 
 .lady {
-  position: relative;
+  position: absolute;
   width: 320px;
-  top: 340px;
+  top: -141px;
   left: 50px;
 }
 
@@ -499,6 +499,7 @@ justify-content: space-around;
   display: flex;
   background-color: var(--clr-primary-1);
   color: var(--clr-white);
+  position: relative;
   
 }
 
@@ -608,11 +609,24 @@ margin-top: 3rem;
       margin: auto;
       width: 350px;
     }
+
+    .heroSection svg{
+      display: none;
+    }
+
+    .intobtn{
+      margin: auto;
+    }
+
   .cards {
     margin: 0;
     /* height: 80vh; */
     display: block;
     width: ;
+  }
+
+  .chooseCard{
+    margin-bottom: 30px;
   }
 
   .choose {
@@ -649,7 +663,12 @@ margin-top: 3rem;
       font-size: x-small;
       text-align: start;
     }
-
+  
+    .quote {
+  position: absolute;
+  left: 350px;
+  top: -25px;
+}
     .earned {
       padding: 2rem;
       padding-bottom: 0;
@@ -659,6 +678,8 @@ margin-top: 3rem;
 
     .earnCard {
       margin: 15px;
+      margin-bottom: 50px
+      ;
       padding: 2rem;
       box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     }
