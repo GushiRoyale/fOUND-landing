@@ -438,10 +438,7 @@ justify-content: space-around;
  
 }
 .earned svg{
-  background-color: var(--clr-primary-1);
-  border-radius: 100%;
-  width:60px;
-  padding: 10px;
+  filter: brightness(0) invert(1);
 
 }
 
@@ -449,6 +446,10 @@ justify-content: space-around;
   position: absolute;
     left: 220px;
     top: -25px;
+    background-color: var(--clr-primary-1);
+    border-radius: 100%;
+      width: 60px;
+      padding: 10px;
 }
 
 
